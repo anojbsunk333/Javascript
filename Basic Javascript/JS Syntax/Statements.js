@@ -22,3 +22,10 @@ c = a + b;    // Assign the sum of a and b to c
 // 2. Semicolons
 // 3. Explain about VAR, CONST, LET
 // 4. ATLAST COMMENTS //
+// IMPORTANT TOPICS COVERED IN THIS SECTION ARE:
+// 1. Explain about Statement
+// 2. Semicolons
+// 3. Explain about VAR, CONST, LET
+// 4. ATLAST COMMENTS //
+
+let ram = 1;
