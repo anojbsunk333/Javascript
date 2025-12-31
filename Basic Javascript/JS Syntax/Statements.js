@@ -12,13 +12,15 @@ a = 5;        // Assign the value 5 to a
 b = 6;        // Assign the value 6 to b
 c = a + b;    // Assign the sum of a and b to c
 
-var	- /*Declares a variable
-let - /*Declare a block variable
-const declares the block const
+// var	- /*Declares a variable
+// let - /*Declare a block variable
+// const declares the block const */
 
 
-IMPORTANT TOPICS COVERED IN THIS SECTION ARE:
-1. Explain about Statement
-2. Semicolons
-3. Explain about VAR, CONST, LET
-4. ATLAST COMMENTS //
+// IMPORTANT TOPICS COVERED IN THIS SECTION ARE:
+// 1. Explain about Statement
+// 2. Semicolons
+// 3. Explain about VAR, CONST, LET
+// 4. ATLAST COMMENTS //
+
+let ram = 1;
