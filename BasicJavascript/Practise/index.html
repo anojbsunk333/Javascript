@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2 id="result">result = </h2>
+
+
+<script>
+    let num1 = prompt("first number")
+    let num2 = prompt("second number")
+    let operator = prompt("k cahiyo (+ - / *)");
+
+    let result =  eval(num1 + operator + num1);
+    const html = document.getElementById("result");
+
+    html.append =  result 
+    html.style.fontSize = "40px";
+    html.style.color = "red";
+
+
+</script>
+
+</body>
+</html>
