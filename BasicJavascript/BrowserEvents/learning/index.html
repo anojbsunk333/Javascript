@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" onmouseenter="console.log('You are near the button')"
+    onclick="console.log('you are inside the button event')">
+        <button onclick="alert('hey broo'); let a = 10; console.log(a)">Click me</button>
           
     </div>
     <script src="script.js"></script>
