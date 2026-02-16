@@ -16,7 +16,7 @@ ondragend
 ondrop
 
 
-//form valiation
+//form validation
 
 // promise
 
