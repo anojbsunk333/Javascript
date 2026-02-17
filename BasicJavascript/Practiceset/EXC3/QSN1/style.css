@@ -1,0 +1,14 @@
+html, body{
+     body {
+      min-height: 100vh;      background: linear-gradient(145deg, #0b0e18 0%, #1a1f2f 100%);
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      padding: 1.5rem;
+      color: gray;
+    }
+}
+
+.navbar{
+    font-size: large;
+}
