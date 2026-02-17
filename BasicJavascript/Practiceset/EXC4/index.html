@@ -8,8 +8,88 @@
 </head>
 <body>
 
-    <div id="text"></div>
+   
+  
+    <div class="container">
+        <!-- Header with glitch effect -->
+        <div class="header">
+            <div class="glitch" data-text="ROOT@ACCESS:~$">HACKERMAN:~$</div>
+            <div class="status">
+                <span class="blink">■</span> SYSTEM ACTIVE
+            </div>
+        </div>
+
+        <!-- Main terminal window -->
+        <div class="terminal">
+           
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="terminal-btn close"></span>
+                    <span class="terminal-btn minimize"></span>
+                    <span class="terminal-btn maximize"></span>
+                </div>
+                
+                <div class="terminal-title">root@hackerman:~/attacks
+                   
+                </div>
+                
+                
+            </div>
+            
+              <div id="text"></div>
+            <div class="terminal-content" id="terminal-content">
+            
+                <div class="line">
+                    <span class="prompt">root@hackerman:~$</span> ./initialize_hack.sh
+                </div>
+                <div class="output" id="output"></div>
+                <div class="input-line">
+                    <span class="prompt">root@hackerman:~$</span>
+                    <span class="cursor" id="cursor"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- System metrics dashboard -->
+        <div class="dashboard">
+            <div class="metric-card">
+                <div class="metric-title">SYSTEM LOAD</div>
+                <div class="metric-value" id="cpu-load">47%</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="cpu-progress" style="width: 47%"></div>
+                </div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">MEMORY USAGE</div>
+                <div class="metric-value" id="memory-usage">1.4GB/8GB</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="memory-progress" style="width: 18%"></div>
+                </div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">NETWORK</div>
+                <div class="metric-value" id="network-status">● CONNECTED</div>
+                <div class="network-stats">
+                    <span>⬇ 1.2 MB/s</span>
+                    <span>⬆ 0.3 MB/s</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick action buttons -->
+        <div class="actions">
+            <button class="hack-btn" onclick="runHack()">▶ RUN HACK</button>
+            <button class="hack-btn" onclick="clearTerminal()">⌧ CLEAR</button>
+            <button class="hack-btn" onclick="matrixEffect()">MATRIX</button>
+        </div>
+
+        <!-- Matrix rain canvas (optional) -->
+        <canvas id="matrix-canvas"></canvas>
+    </div>
+
     <script src="script.js"></script>
-    
+
 </body>
 </html>
